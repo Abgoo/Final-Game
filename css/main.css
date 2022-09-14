@@ -1,0 +1,63 @@
+* {
+    font-family: 'Itim', cursive;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #12181B;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 10%;
+}
+
+.line {
+    background-color: white;
+    width: 350px;
+    height: 10px;
+    margin-top: 75px;
+}
+
+.btns {
+    margin-top: 30px;
+}
+
+button a {
+    color: gray;
+}
+
+button {
+    background-color: azure;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #efeada;
+    border: none;
+    border-radius: 4%;
+}
+
+button:hover {
+    color: #efeada;
+    background-color: rgb(25, 88, 223);
+    transform: scale(1.1);
+    transition-duration: 0.3s
+}
+
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.x {
+    width: 100px;
+    height: 130px;
+}
+
+.o {
+    width: 120px;
+    height: 130px;
+}

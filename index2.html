@@ -1,0 +1,62 @@
+<html>
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href='css/style2.css'>
+    <script src="js/game2.js"></script>
+    <title>Tic Tac Toe 1 Player</title>
+</head>
+
+<body class="background">
+    <div class="container">
+        <div class="text-center">
+            <h1>TIC TAC TOE</h1>
+        </div>
+
+        <div class="imgs">
+            <img class="x" src="pic/x.png" alt="X">
+            <div class="line"></div>
+            <img class="x" src="pic/o.png" alt="O">
+        </div>
+
+        <div id="chooseP">
+            <h2>Choose a side</h2><br/><br>
+            <button id="chooseP1" class="btn btn-primary">X</button> <span>OR</span> <button id="chooseP2" class="btn btn-primary">O</button>
+        </div>
+        <div class='row'>
+            <div class='col-md-4 col-md-offset-4' id="scores">P1: 0 P2: 0</div>
+        </div>
+
+        <div id='board'>
+            <table>
+                <tr class="top">
+                    <td id="0" class="left"></td>
+                    <td id="1" class="centre"></td>
+                    <td id="2" class="right"></td>
+                </tr>
+                <tr class="mid">
+                    <td id="3" class="left"></td>
+                    <td id="4" class="centre"></td>
+                    <td id="5" class="right"></td>
+                </tr>
+                <tr class="bot">
+                    <td id="6" class="left"></td>
+                    <td id="7" class="centre"></td>
+                    <td id="8" class="right"></td>
+                </tr>
+            </table>
+        </div>
+        <button class="btm"><a href="main.html">Back To Main</a></button>
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    font-family: 'Itim', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Itim', cursive;
+}
+
+.background {
+    background-color: #12181B;
+    height: 100%;
+    width: 100%;
+    padding-top: 1px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.line {
+    width: 550px;
+    height: 8px;
+    background-color: white;
+    margin-top: 65px;
+}
+
+.x {
+    height: 150px;
+    width: 120px;
+}
+
+span {
+    font-size: 15px;
+    margin: 0 8px 0 8px;
+}
+
+#board {
+    margin: 30px auto 30px auto;
+    height: 400px;
+    width: 400px;
+}
+
+#scores {
+    font-size: 150%;
+}
+
+td {
+    font-family: 'Itim', cursive;
+    font-size: 3.5em;
+    border: 1px solid white;
+    height: 133px;
+    width: 133px;
+    text-align: center;
+    font-size: 300%;
+}
+
+tbody {
+    border: none;
+}
+
+.top>td {
+    border-bottom: solid 1px white;
+}
+
+.mid>td {
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.btm {
+    background-color: #FF3860;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-decoration: none;
+}
+
+.btm:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    background-color: chartreuse;
+}
+
+.btm a {
+    color: white;
+}
